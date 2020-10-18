@@ -12,10 +12,18 @@ class Products extends Component {
   getProducts () {
     return [
       {
+        imageFile: './Wired-and-Wireless-Backups-720.jpg',
+        productName: 'Wired and Wireless Backups',
+        releasedDate: 'October 18, 2020',
+        description: 'Wireless solutions in the modern office #0',
+        rating: 4,
+        numericRating: 4
+      },
+      {
         imageFile: './Near-Field Storage Solutions-720.jpg',
         productName: 'Near Field - Storage Solutions',
         releasedDate: 'August 15, 2020',
-        description: 'Wireless solutions by the modern office #0',
+        description: 'Wireless solutions by the modern office #1',
         rating: 2,
         numericRating: 2
       },
@@ -23,7 +31,7 @@ class Products extends Component {
         imageFile: './Hybrid Lily Containerization-720.jpg',
         productName: 'Lily Containerization - Development & Deployment',
         releasedDate: 'August 09, 2020',
-        description: 'Wireless solutions by the modern office #1',
+        description: 'Wireless solutions by the modern office #2',
         rating: 4,
         numericRating: 2
       },
@@ -31,7 +39,7 @@ class Products extends Component {
         imageFile: './Modern-Debugging-Tools-720.jpg',
         productName: 'Debugging Tools in Action',
         releasedDate: 'August 08, 2020',
-        description: 'Wireless solutions in the modern office #2',
+        description: 'Wireless solutions in the modern office #3',
         rating: 3,
         numericRating: 2
       },
@@ -39,7 +47,7 @@ class Products extends Component {
         imageFile: './Contemplating Architecture-720.jpg',
         productName: 'Code cleaning - Review stage',
         releasedDate: 'August 07, 2020',
-        description: 'Wireless solutions in the modern office #3',
+        description: 'Wireless solutions in the modern office #4',
         rating: 4,
         numericRating: 2
       },
@@ -47,7 +55,7 @@ class Products extends Component {
         imageFile: './Clean-Coding-720.jpg',
         productName: 'Code cleaning - Paused',
         releasedDate: 'August 05, 2020',
-        description: 'Wireless solutions in the modern office #4',
+        description: 'Wireless solutions in the modern office #5',
         rating: 2,
         numericRating: 2
       },
@@ -55,7 +63,7 @@ class Products extends Component {
         imageFile: './Go-Wireless-720.jpg',
         productName: 'Bluetooth headphones - Connecting',
         releasedDate: 'July 15, 2020',
-        description: 'Wireless solutions in the modern office #5',
+        description: 'Wireless solutions in the modern office #6',
         rating: 3,
         numericRating: 2
       }]
